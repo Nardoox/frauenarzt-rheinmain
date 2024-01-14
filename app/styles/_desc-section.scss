@@ -1,0 +1,108 @@
+.desc-section {
+  box-sizing: content-box;
+  overflow: hidden;
+  padding: 1em 0;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  & > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(126, 55, 148);
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  & > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    & > a {
+      font-weight: 500;
+      background-color: rgb(126, 55, 148);
+      border-radius: 10px;
+      padding: .5em .25em;
+      text-align: center;
+      width: 30%;
+      margin: 0 1em;
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+    }
+  }
+  .geburtshilfe-sec {
+    box-sizing: content-box;
+    & > h3 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 1em 0;
+      color: rgb(126, 55, 148);
+    }
+    .geb-desc-con {
+      display: flex;
+      justify-content: space-between;
+      .img-wrap {
+        width: 45%;
+        & > img {
+          aspect-ratio: 2;
+          width: 100%;
+          height: auto
+        }
+      }
+      .geb-desc-txt {
+        width: 50%;
+      }
+    }
+  }
+  .gynäkologie-sec {
+    box-sizing: content-box;
+    & > h3 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 1em 0;
+      color: rgb(126, 55, 148);
+    }
+    .gyn-desc-con {
+      display: flex;
+      justify-content: space-between;
+      .img-wrap {
+        order: 2;
+        width: 45%;
+        & > img {
+          aspect-ratio: 2;
+          width: 100%;
+          height: auto
+        }
+      }
+      .gyn-desc-txt {
+        width: 50%;
+      }
+    }
+  }
+  .operative-sec {
+    box-sizing: content-box;
+    & > h3 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 1em 0;
+      color: rgb(126, 55, 148);
+    }
+    .op-desc-con {
+      display: flex;
+      justify-content: space-between;
+      .img-wrap {
+        width: 45%;
+        & > img {
+          aspect-ratio: 2;
+          width: 100%;
+          height: auto
+        }
+      }
+      .op-desc-txt {
+        width: 50%;
+      }
+    }
+  }
+}

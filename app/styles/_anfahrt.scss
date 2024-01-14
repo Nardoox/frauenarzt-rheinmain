@@ -1,0 +1,52 @@
+.anfahrt {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  .anfahrt-con {
+    gap: 2em;
+    display: flex; 
+    align-items: center;
+    width: 100%;
+  }
+  & > h2 {
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 1em 0;
+    color: rgb(126, 55, 148);
+  }
+  .map {
+    width: 50%;
+    .gmap {
+      width: 100%;
+    }
+  }
+  .weg-beschreibung {
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+    flex: 1;
+    & > h2 {
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+    & > p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .anfahrt-con {
+    flex-wrap: wrap;
+    .map {
+      width: 100%;
+      .gmap {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.arztFooter {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(58, 78, 143);
+  width: 80%;
+  margin: 0 auto;
+  row-gap: 3em;
+  justify-content: space-between;
+  align-content: center;
+  color: white;
+  padding: 2rem 0;
+  .foot-div {
+    & > h3 {
+      font-size: 1.1rem;
+      margin-bottom: 1em;
+    }
+    & > p {
+      font-size: .9rem;
+      margin: .25em 0;
+    }
+    .off-wrap {
+      margin: .25em 0;
+      min-width: 300px;
+      display: flex;
+      justify-content: space-between;
+      & > p {
+        font-size: .9rem;
+      }
+    }
+  }
+  a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: bisque;
+    padding-left: 0.1rem;
+  }
+  & > ul {
+    width: 16%;
+    & > li {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .arztFooter {
+    width: 100%;
+    padding: 2rem;
+  }
+}

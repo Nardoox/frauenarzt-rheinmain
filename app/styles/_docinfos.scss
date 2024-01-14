@@ -1,0 +1,27 @@
+.doc-info-txt {
+  text-align: start;
+  width: 100%;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  & > span {
+    &::before {
+      margin-right: .5em;
+      content: "•";
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+}
+
+.doc-info-h3 {
+  text-align: start;
+  width: 100%;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.doc-modal-img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}

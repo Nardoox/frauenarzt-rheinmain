@@ -1,0 +1,52 @@
+.wave-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 10;
+  transform: rotate(180deg);
+}
+
+.wave-1 svg {
+  z-index: 10;
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 76px;
+}
+
+.wave-1 .shape-fill {
+  z-index: 10;
+  fill: #0A0735;
+}
+
+.left-side {
+  background-image: url("/left.svg");
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  & > path {
+    position: absolute;
+  }
+}
+.right-side {
+  background-image: url("/right.svg");
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  & > path {
+    position: absolute;
+  }
+}
