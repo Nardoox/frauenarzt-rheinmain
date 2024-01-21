@@ -29,15 +29,15 @@ import TerminForm from "@/components/terminForm";
 import Accordiont from "@/components/accordion";
 
 import logo from "../../../images/arzt-logo.jpg";
-import radew from "../../..//images/eduard_radew.jpg";
-import bienia from "../../..//images/gabriele_bienia-1.jpg";
-import uvarov from "../../..//images/irina_uvarov-1.jpg";
-import team1 from "../../..//images/team1.jpg";
-import team2 from "../../..//images/team2.jpg";
-import praxis1 from "../../..//images/praxis1.jpg";
-import praxis2 from "../../..//images/praxis2.jpg";
-import praxis3 from "../../..//images/praxis3.jpg";
-import praxis4 from "../../..//images/praxis4.jpg";
+import radew from "../../../images/eduard_radew.jpg";
+import bienia from "../../../images/gabriele_bienia-1.jpg";
+import uvarov from "../../../images/irina_uvarov-1.jpg";
+import team1 from "../../../images/team1.jpg";
+import team2 from "../../../images/team2.jpg";
+import praxis1 from "../../../images/praxis1.jpg";
+import praxis2 from "../../../images/praxis2.jpg";
+import praxis3 from "../../../images/praxis3.jpg";
+import praxis4 from "../../../images/praxis4.jpg";
 
 export default function Page() {
   const [openModal, setOpenModal] = useState(null);
