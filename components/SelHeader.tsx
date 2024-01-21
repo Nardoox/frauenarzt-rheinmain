@@ -16,7 +16,6 @@ export default function SelHeader() {
           <Link href={"/seligenstadt/home#about"}>Über uns</Link>
           <Link href={"/seligenstadt/contact"}>Anfrage</Link>
           <Link href={"/"}>Anfahrt</Link>
-          <button onClick={() => scrollToElement(1)}></button>
         </ul>
       </header>
       {/* <div className="header-placeholder"></div> */}
