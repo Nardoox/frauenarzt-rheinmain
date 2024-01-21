@@ -10,17 +10,22 @@
   padding: 1em 1em;
   display: flex;
   justify-content: space-between;
+  z-index: 20;
 }
 .sel-header > ul {
-  width: 70%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+.sel-header > ul > li {
+  cursor: pointer;
 }
 .sel-header > ul > a {
   font-size: 1.3rem;
   font-weight: 700;
   text-decoration: none;
-  color: rgb(126, 55, 148);
+  color: rgb(92, 90, 152);
   text-transform: uppercase;
   margin: auto;
   cursor: pointer;
@@ -62,6 +67,7 @@ main {
 }
 
 .con-wrap {
+  padding: 1.5rem 0;
   width: 80%;
   background-color: #fff;
   margin: 0 auto;
@@ -560,7 +566,7 @@ main {
 }
 
 .leistungen {
-  padding: 1.5rem;
+  padding: 3rem 1.5rem;
   margin-right: 1em;
   display: flex;
   justify-content: center;

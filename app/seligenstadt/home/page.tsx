@@ -79,7 +79,6 @@ export default function Page() {
   return (
     <>
       <header className="sel-header">
-        <Image src={logo} alt="logo"></Image>
         <ul>
           <a onClick={() => scrollToElement(1)}>Home</a>
           <a onClick={() => scrollToElement(1)}>Leistungen</a>
@@ -473,7 +472,7 @@ export default function Page() {
           backdrop="blur"
           size="5xl"
           isOpen={openModal === "uvarovLebenslauf"}
-          placement="top"
+          placement="bottom"
           onOpenChange={closeModalHandler}
         >
           <ModalContent>

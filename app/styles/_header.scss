@@ -1,7 +1,7 @@
 .sel-header {
   z-index: 10;
   position: fixed;
-  background-color: rgba(255,255,255, 1);
+  background-color: rgb(255, 255, 255);
   width: 80%;
   height: 10vh;
   right: 10%;
@@ -9,15 +9,20 @@
   padding: 1em 1em;
   display: flex;
   justify-content: space-between;
+  z-index: 20;   
   & > ul {
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    & > li{
+      cursor: pointer;
+    }
     & > a {
       font-size: 1.3rem;
       font-weight: 700;
       text-decoration: none;
-      color: rgb(126, 55, 148);
+      color: rgb(92, 90, 152);
       text-transform: uppercase;
       margin: auto;
       cursor: pointer;
